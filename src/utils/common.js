@@ -22,3 +22,5 @@ export const randomColor = () => {
   
   return color;
 }
+
+export const defaultcolor='#FFFFFF';

@@ -24,6 +24,10 @@ export const request = (method, url, options) => new Promise((resolve, reject) =
     withCredentials: false,
     ...options,
   }).then(parseJSON)
+  
     .then(res => resolve(res.json))
-    .catch(err => reject(err))
-})
+    .catch(err => reject(err));
+   
+}
+
+)

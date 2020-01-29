@@ -8,6 +8,7 @@ import ColorfulTiles from './pages/ColorfulTiles';
 import Giphy from './pages/Giphy';
 import GiphyDetail from './pages/GiphyDetail';
 import NotFound from './pages/NotFound';
+import History from './pages/History/History';
 import './App.scss';
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
               <Route path="/colorful-tiles" component={ ColorfulTiles }/>
               <Route path="/giphy" component={ Giphy }/>
               <Route path="/giphy-detail/:id" component={ GiphyDetail }/>
+              <Route path="/history" component={History}/>
               <Route component={ NotFound }/>
             </Switch>
           </BrowserRouter>

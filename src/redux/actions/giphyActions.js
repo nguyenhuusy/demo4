@@ -4,6 +4,7 @@ const api_key = 's6iv3qb8HGC9kRtpZrnprMquECmn4dd0';
 
 export const getTrendingGifs = () => dispatch => {
   dispatch(giphyLoading());
+  console.log(giphyLoading())
   const params = {
     api_key,
     limit: 20
